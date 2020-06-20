@@ -1,0 +1,19 @@
+{
+  "name": "netflixparty4all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "urlcode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "De'Mondre Z",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.6",
+    "npm": "^6.14.5",
+    "videojs-youtube": "^2.6.1"
+  },
+  "devDependencies": {
+    "video.js": "^7.8.2"
+  }
+}
