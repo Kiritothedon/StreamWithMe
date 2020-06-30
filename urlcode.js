@@ -12,20 +12,34 @@ function getId(url) {
 var myId;
 
 $('#myBtn').click(function () {
+    
     var myUrl = $('#input').val();
     myId = getId(myUrl);
-    
+    console.log('1');
     $('#myId').html(myId);
-
-    $('#myCode').html(`
+    console.log('2');
+/*  
+     $('#myCode').html(`
     <video
     id="vid1"
     class="video-js vjs-default-skin"
     controls
     autoplay
-    width="640" height="264"
-    data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/` + myId + `"}] }'>
-  </video>`);
+    width="1280" height="528"
+    data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=` + myId + `"}] }'>
+  </video>`); 
+  */
+  $('#BodyDiv1').html(`<video
+  id="vid1"
+  class="video-js vjs-default-skin"
+  controls
+  width="560" height="315"
+  data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=iRusbYIyRNI"}] }'
+>
+</video>`);
+  console.log('3');
+ 
     //$('#myCode').html('<iframe width="560" height="315" src="//www.youtube.com/embed/' + myId + '" frameborder="0" allowfullscreen></iframe>');
 });
+
 
