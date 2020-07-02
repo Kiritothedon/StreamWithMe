@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+    
+    <title>Stream With Me</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+<!--
+<link type="text/css" rel="stylesheet" href="/node_modules/video.js/dist/video-js.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.9/brython.min.js" integrity="sha256-U56d9Sn/Gtf1meSBXazW81LM1bUeyc1jFuoY3CBu6A8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.9/brython_stdlib.js" integrity="sha256-lQ1zBVaj5yjGPUY2asoK6lPcfpFqEe8qOA0U0OgoRzY=" crossorigin="anonymous"></script>
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+    <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" /> 
+
+-->
+    <script src="https://code.jquery.com/jquery-1.9.1.js" integrity="sha256-e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA=" crossorigin="anonymous"></script>
+    
+
+    </head>
+
+<div class="Wrapper">
+  <!---->
+  <input id="input-username" type="text" placeholder= "Username" />
+  
+  <h1 class="Title">Stream With Me</h1>
+  
+    <div class="Input">
+          <input class="Input-text" id="input" type="text" placeholder= "Enter Link"/>
+          <label for="input" id ="label1" class="Input-label">Enter Link</label>
+          <button id="myBtn">GO</button>
+    </div>
+
+  <body id="myCode">
+    
+    <div id="BodyDiv1"></div>
+      
+      <div class="chat">
+        <pre id="messages"></pre>
+        <input type="text" style="display: none;"  id="messageBox" placeholder="Type your message here"  />
+        <button id="send" style="display: none;" title="Send Message!" >Send</button>
+        
+      </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js" integrity="sha512-BHtomM5XDcUy7tDNcrcX1Eh0RogdWiMdXl3wJcKB3PFekXb3l5aDzymaTher61u6vEZySnoC/SAj2Y/p918Y3w==" crossorigin="anonymous"></script> 
+  <script type="text/javascript" src="urlcode.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+  
+  <!--
+      <script type="text/javascript" src="Code2.js"></script>  
+
+    <script src="/node_modules/video.js/dist/video.min.js"></script>
+  <script src="/node_modules/videojs-youtube/dist/Youtube.min.js"></script> 
+  -->
+  
+  </body>
+  </div>
+</html>
