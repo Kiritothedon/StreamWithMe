@@ -1,8 +1,10 @@
 # StreamWithMe
+Video streaming website aimed at letting friends stream any videos 
+in small chatrooms
 
-Work In Progress
+Only supporting youtube videos currently 
+looking to support all video formats 
 
-Just trying to make netflix party 4 all
 
 Dependencys:
    "express": "^4.17.1",
