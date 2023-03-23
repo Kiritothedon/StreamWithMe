@@ -30,7 +30,7 @@ input.addEventListener("keyup", function(event) {
                 ws.close();
               }
         
-              ws = new WebSocket('ws://localhost:5500');
+              ws = new WebSocket('ws://localhost:3000');
               ws.onopen = () => {
                 console.log('Connection opened!');
               }
